@@ -138,3 +138,57 @@
 	height: 45px;
 	border-bottom: 2px solid #b1191a; 
 }
+.dropdown {
+	width: 209px;
+	height: 45px;
+}
+.dropdown .dt {
+	height: 100%;
+	line-height: 45px;
+	background-color: #b1191a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.dropdown .dd {
+	margin-top: 2px;
+	height: 465px;
+	background-color: #c81623;
+}
+.menu_item {
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	padding: 0 10px;
+}
+.menu_item:hover {
+	background-color: #fff;
+}
+/*鼠标经过li，li里面的a变成红色*/
+.menu_item:hover  a{
+	color: #c81623;
+}
+.menu_item a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu_item i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+}
+.navitems a {
+	display: block;
+	/*a给padding的目的是为了不只是文字部分可以点击，文字周围空白处也可以点击链接*/
+	padding: 0 25px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
