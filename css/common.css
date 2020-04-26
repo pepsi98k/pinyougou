@@ -6,9 +6,135 @@
 .fr {
 	float: right;
 }
+/*注意fonts所在的路径，要先从当前的common.css ../到上一级的css文件夹所在路径，再/fonts才能找到*/
+@font-face{  /*声明字体 引用字体*/
+	    font-family:'icomoon';
+	    src:url('../fonts/icomoon.eot');
+	    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+	    url('../fonts/icomoon.woff') format('woff'),
+	    url('../fonts/icomoon.ttf')  format('truetype'),
+	    url('../fonts/icomoon.svg#SofiaProLight')  format('svg');
+	    font-weight:normal;
+	    font-style:normal;
+	}
+.fr .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	/*icomoon高度是继承shorcut，默认31是居中居中，但是箭头字体图标上部分是空的，
+	整体把其他文字拉下了，所以要想偏上些，可以将行高改小些，使字体图标往上移动些*/
+	line-height: 26px;
 
+}
 .w {
 	width: 1200px;
 	margin: 0 auto;
 }
+/*观察页面中很多地方都用到这个红色，单独定义个样式，用的地方直接调用*/
+.style-red {
+	color: #c81623;
+}
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+/*顶部快捷导航开始*/
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	background-color: #f1f1f1;
+}
+.shortcut li {
+	float: left;
+}
 
+/*header部分开始*/
+.header {
+	position: absolute;
+	height: 105px;
+	position: relative;
+}
+.logo {
+	position: relative;
+	top: 25px;
+	width: 171px;
+	height: 55px;
+}
+.logo a {
+	display: block;
+	overflow: hidden;
+	width: 171px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -999px;
+}
+.search {
+	position: absolute;
+	left: 348px;
+	top: 25px;
+}
+.text {
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	color: #ccc;
+}
+.btn {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.hotwords {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwords a {
+	margin:0 10px;
+}
+/*购物车*/
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	line-height: 34px;
+	font-size: 12px;
+}
+.car {
+	margin-left: 18px;
+	font-family: icomoon;
+	color: #d95151;
+	font-size: 12px;
+}
+.arrow {
+	font-family: icomoon;
+	color: #a3a3a3;
+	font-size: 12px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 3px;
+	background-color: #e60012;
+	color: #fff;
+	border-radius: 7px 7px 7px 0;
+}
+/*导航部分开始*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a; 
+}
