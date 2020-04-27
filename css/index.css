@@ -142,13 +142,30 @@
 	color: #fff;
 	font-weight: 400;
 }
+.recom-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
 .recom-bd li {
 	float: left;
+	margin-top: 10px;
 	width: 249px;
 	height: 145px;
 	border-right: 1px solid #ccc;
 }
 .recom-bd img {
+	height: 143px;
 	border: 0;
 	vertical-align: middle;
+}
+/*只写.last权重不够不生效，加上.recom-bd够了*/
+.recom-bd .last {
+	border-right: 0;
+}
+/*楼层区开始*/
+.box-hd {
+	height: 30px;
+	background-color: pink;
+	border-bottom: 2px solid #c81623;
 }
