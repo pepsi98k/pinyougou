@@ -1,4 +1,4 @@
-/*公共样式*/
+/*公共样式,头部和底部公共样式，每个页面都有的*/
 .fl {
 	float: left;
 }
@@ -261,4 +261,13 @@
 }
 .mod_help_app img {
 	margin: 7px 0;
+}
+.mod_copyright {
+	text-align: center;
+}
+.mod_copyright_links {
+	margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+	line-height: 18px;
 }

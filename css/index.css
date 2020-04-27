@@ -1,0 +1,154 @@
+/*首页样式*/
+.icomoon {
+	font-family: 'icomoon'
+}
+.main {
+	margin: 10px 0 0 219px;
+	width: 980px;
+	height: 455px;
+}
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+	background-color: #ccc;
+}
+.arrow_l,.arrow_r {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 18px;
+}
+.arrow_r {
+	right: 0;
+}
+.newsflash {
+	width: 250px;
+	height: 455px;
+}
+.circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li {
+	float: left;
+	margin: 0 3px;
+	width: 8px;
+	height: 8px;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	cursor: pointer;
+}
+.circle .current {
+	background-color: #fff;
+}
+.news {
+	height: 163px;
+	border: 1px solid #ccc;
+}
+.news-hd {
+	height: 32px;
+	border: 1px dotted #ccc;
+	padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px
+}
+.news-hd a {
+	float: right;
+	font-size: 12px;
+}
+.news-bd ul {
+	padding: 5px 0 0 10px;
+}
+.news-bd li {
+	margin: 5px 0;
+}
+.lifeservice {
+	height: 208px;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	/*因为四个li的宽度大于父元素的宽度，第四个li被挤到了下一行，
+	可以将父元素宽度设置大于四个Li的宽度，在将父元素的父元素溢出隐藏*/
+	width: 252px;
+}
+.lifeservice li {
+	/*给.hot加的定位关系*/
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+	display: block;
+	/*解决a里面的i加的上外边距，导致外边距塌陷问题*/
+	overflow: hidden;
+	height: 100%;
+	text-align: center;
+}
+.service_ico {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../img/icons.png)  no-repeat;
+	margin: 10px auto;
+}
+.service_ico_huafei {
+	background-position: -17px -16px;
+}
+.service_ico_jipiao {
+	background-position: -78px -16px;
+}
+.hot {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+	background: url(../img/jian.jpg) no-repeat;
+}
+.bargain {
+	height: 75px;
+	margin-top: 5px;
+	background: url(../upload/bargain.jpg);
+}
+/*今日推荐部分*/
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recom-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img {
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+.recom-bd li {
+	float: left;
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+}
+.recom-bd img {
+	border: 0;
+	vertical-align: middle;
+}
