@@ -160,9 +160,12 @@
 	line-height: 31px;
 	margin-left: 1px;
 	padding: 0 10px;
+	/*鼠标经过li时，文字向右移动一点，鼠标移开自动恢复，动画效果*/
+	transition: all 0.5s;
 }
 .menu_item:hover {
 	background-color: #fff;
+	padding-left: 18px; 
 }
 /*鼠标经过li，li里面的a变成红色*/
 .menu_item:hover  a{
