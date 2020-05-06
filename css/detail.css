@@ -113,3 +113,83 @@
 .summary_support {
 	line-height: 36px;
 }
+.choose_color a {
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 41px;
+}
+.summary a.current {
+	border-color: #c81623;
+}
+.choose_version {
+	margin: 10px 0;
+}
+.choose_version a,
+.choose_type a {
+	display: inline-block;
+	padding: 0 12px;
+	height: 32px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 32px;
+}
+.choose_btns {
+	margin-top: 20px;
+}
+.choose_amount {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 46px;
+}
+.choose_amount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.choose_amount .add,
+.choose_amount .reduce {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 22px;
+}
+.choose_amount .add {
+	top: 0;
+}
+.choose_amount .reduce {
+	bottom: 0;
+	cursor: not-allowed;
+}
+.addcar {
+	float: left;
+	margin-left: 10px;
+	width: 142px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	background-color: #c81623;
+}
+.aside {
+	width: 200px;
+	border: 1px solid #ccc;
+	height: 1000px;
+}
+.detail {
+	width: 978px;
+	border: 1px solid #ccc;
+	height: 1000px;
+}
