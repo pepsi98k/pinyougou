@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?tg73yo');
+  src:  url('fonts/icomoon.eot?tg73yo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tg73yo') format('truetype'),
+    url('fonts/icomoon.woff?tg73yo') format('woff'),
+    url('fonts/icomoon.svg?tg73yo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e902";
+}
+.icon-keyboard:before {
+  content: "\e903";
+}
+.icon-photo:before {
+  content: "\e904";
+}
+.icon-play:before {
+  content: "\e905";
+}
+.icon-screen-full:before {
+  content: "\e906";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-switch:before {
+  content: "\e9b6";
+}
+.icon-ctrl1:before {
+  content: "\ea50";
+}
+.icon-ctrl11:before {
+  content: "\ea51";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-sina-weibo:before {
+  content: "\ea9a";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-ctrl:before {
+  content: "\ea52";
+}
